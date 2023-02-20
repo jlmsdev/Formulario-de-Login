@@ -1,0 +1,147 @@
+.containerLogin {
+    width: 100%;
+    display: flex;
+}
+
+.formLogin {
+    width: 50%;
+    height: 100vh;
+    padding: 0 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoLogin {
+    width: 50%;
+    height: 100vh;
+    background-color: #0056FB;
+    padding: 0 1rem;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxInput {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxInput input {
+    width: 444px;
+    height: 49px;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    outline: none;
+    padding: 1rem;
+    border: 1px solid #000;
+    font-size: 1rem;
+    color: #000;
+}
+
+.boxInput input::placeholder {
+    color: #000;
+    font-size: .9rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    height: 49px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #0056FB;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+form h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.linkLogin {
+    color: #000;
+    font-size: 1rem;
+}
+
+.btnEnvia {
+    display: flex;
+    align-items: center;
+}
+
+input[type=checkbox] {
+    width: 21px;
+    height: 21px;
+}
+
+.infoTexto {
+    margin-left: .7rem;
+}
+
+.sobre {
+    width: 100%;
+    max-width: 438px;
+}
+
+.sobre h2 {
+    font-size: 2.5rem;
+    color: #FFF;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.sobre p {
+    color: #FFF;
+    font-size: .9rem;
+    line-height: 20px;
+}
+
+.ImagemLogin img {
+    width: 100%;
+}
+
+
+@media (max-width: 940px) {
+    .containerLogin {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formLogin {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        width: 100%;
+        
+    }
+
+    .infoLogin {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .boxInput input {
+        width: 100%;
+    }
+  
+}
